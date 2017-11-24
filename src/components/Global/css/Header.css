@@ -1,0 +1,43 @@
+.Header {
+  text-align: center;
+  height: 80px;
+  color: white;
+}
+
+.Header-logo {
+  padding: 15px 25px;
+  width: 213px;
+  float: left;
+}
+
+.Menu {
+  float: right;
+  width: 160px;
+}
+
+.Menu ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: .8em;
+  float: right;
+}
+
+.Menu li {
+  display: inline-block;
+  padding: 0px 10px;
+  border-left: 1px #555555 solid;
+}
+
+.Menu li a {
+  color: #c9c9c9;
+  text-decoration: none;
+}
+
+.Menu li a:hover {
+  color: white;
+}
+
+.Menu li:first-child {
+  border-left: none;
+}
