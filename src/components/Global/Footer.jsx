@@ -1,4 +1,4 @@
-// Dependences
+// Dependencies
 import React, { /* Component */ } from 'react';
 import PropTypes from 'prop-types';
 
@@ -10,12 +10,12 @@ import './css/Footer.css';
  * @return {React.component} Footer component
  */
 const Footer = props => {
-	const { copyrigth = '&copy React 2017' } = props;
-	return <footer dangerouslySetInnerHTML={{__html: copyrigth }} />
+  const { copyrigth = '&copy React 2017' } = props;
+  return <footer dangerouslySetInnerHTML={{__html: copyrigth }} />
 }
 
 Footer.propTypes = {
-	copyrigth: PropTypes.string
+  copyrigth: PropTypes.string
 }
 
 export default Footer;

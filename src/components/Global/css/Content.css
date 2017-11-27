@@ -1,8 +1,14 @@
 .Content {
-  padding: 0px 15px;
+  padding: 0px;
   min-height: 200px;
 }
 
 .Content-intro {
   font-size: large;
+}
+
+@media screen and (min-width: 1280px) {
+  .Content {
+    width: 100%;
+  }
 }
