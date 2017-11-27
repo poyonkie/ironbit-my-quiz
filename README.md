@@ -1,17 +1,17 @@
-# Template engine and Redux setup
+# Template engine, Redux setup and consume services.
 
-> Improved environment setup. Template engine and Redux was added.
+> Improved environment setup. Template engine and Redux was added. TThe 'mfwkweb-api.clarovideo.net//services/' API was connect.
 
 
 ## Installation
 
-```
+```javascript
 npm install
 ```
 
 ## Usage
 
-```
+```javascript
 // Launches the APP in localhost on development mode.
 npm start
 
@@ -27,7 +27,7 @@ Launches the APP in localhost on production mode.
 
 Improved environment setup. Template engine and Redux was added.
 
-### Dependencies
+### More Dependencies
 
 - **[bluebird]()** .
 - **[express-handlebars]()** .
@@ -40,7 +40,7 @@ Improved environment setup. Template engine and Redux was added.
 - **[redux-promise-middleware]()** .
 - **[redux-state]()** .
 
-### devDependencies
+### More devDependencies
 
 - **[babel-preset-env]()** .
 - **[webpack]()** 2.7.0.
