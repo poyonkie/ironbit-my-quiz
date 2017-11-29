@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-class Home extends Component {
+export class Home extends Component {
   static propTypes = {
     isMobile: PropTypes.bool
   }
@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <div>
       Home today!!!
-      <p>{isMobile ? 'Mobile Device': 'Desktop Device'}</p>
+      <p className="is-device">{isMobile ? 'Mobile Device': 'Desktop Device'}</p>
       </div>
     )
   }

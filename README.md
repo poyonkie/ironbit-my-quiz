@@ -1,6 +1,6 @@
-# Template engine, Redux setup and consume services.
+# Unit Testing added.
 
-> Improved environment setup. Template engine and Redux was added. TThe 'mfwkweb-api.clarovideo.net//services/' API was connect.
+> 'Jest' & 'Enzyme'.
 
 
 ## Installation
@@ -20,6 +20,9 @@ npm build
 
 // Launches the APP in localhost on production mode.
 npm production
+
+// Launches unit testing.
+npm test
 ```
 
 ## Summary
@@ -44,6 +47,12 @@ Improved environment setup. Template engine and Redux was added.
 - **[babel-preset-env]()** .
 - **[webpack]()** 2.7.0.
 - **[webpack-split-chunks]()** .
+- **[babel-jest]() .
+- **[enzyme]() .
+- **[react-test-renderer]() .
+- **[enzyme-adapter-react-15]() .
+- **[react-addons-test-utils]() .
+- **[redux-mock-store]() .
 
 
 ## Enhancement
